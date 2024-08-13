@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.dbaa4c42.css",
+    "main.js": "/portfolio/static/js/main.56723468.js",
+    "static/media/realestate.png": "/portfolio/static/media/realestate.f1e059bf3f9b3ee27548.png",
+    "static/media/shopify.png": "/portfolio/static/media/shopify.59175e363f8810a14350.png",
+    "static/media/ecommerce.png": "/portfolio/static/media/ecommerce.cca19d7bc54d095eeb74.png",
+    "static/media/hair.jpg": "/portfolio/static/media/hair.98d6a29f6ede25afa09e.jpg",
+    "static/media/newresume.pdf": "/portfolio/static/media/newresume.5171d5781f9115f97261.pdf",
+    "static/media/codeEdit.png": "/portfolio/static/media/codeEdit.4720b0a4e44330b6c24b.png",
+    "index.html": "/portfolio/index.html",
+    "main.dbaa4c42.css.map": "/portfolio/static/css/main.dbaa4c42.css.map",
+    "main.56723468.js.map": "/portfolio/static/js/main.56723468.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbaa4c42.css",
+    "static/js/main.56723468.js"
+  ]
+}
