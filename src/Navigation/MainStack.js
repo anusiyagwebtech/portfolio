@@ -10,11 +10,11 @@ function MainStack() {
      <Router>
     
         <Routes>
-            <Route path='/' element={<Screens.HomeScreen/>}/>
-            <Route path='/about' element={<Screens.AboutPage/>}/>
-            <Route path='/service' element={<Screens.Services/>}/>
-            <Route path='/portfolio' element={<Screens.Portfolio/>}/>
-            <Route path='/contact' element={<Screens.ContactPage/>}/>
+            <Route path='/portfolio/' element={<Screens.HomeScreen/>}/>
+            <Route path='/portfolio/about' element={<Screens.AboutPage/>}/>
+            <Route path='/portfolio/service' element={<Screens.Services/>}/>
+            <Route path='/portfolio/portfolio' element={<Screens.Portfolio/>}/>
+            <Route path='/portfolio/contact' element={<Screens.ContactPage/>}/>
             {/* <Route path='/newresume' element={newResume}/> */}
         </Routes>
         <Components.Theme/>

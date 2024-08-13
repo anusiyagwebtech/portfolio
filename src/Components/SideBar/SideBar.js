@@ -19,25 +19,25 @@ function SideBar() {
         </div>
         <div className='sidebar-content'>
             <div  >
-              <Link to={'/'} className={menu === 'home' ? 'active': ''} aria-current={menu === 'home' ? 'page': undefined}onClick={()=> handleClick('home')}>
+              <Link to={'/portfolio/'} className={menu === 'home' ? 'active': ''} aria-current={menu === 'home' ? 'page': undefined}onClick={()=> handleClick('home')}>
             <i class="fa-solid fa-house-chimney"></i>
             <p>Home</p></Link>
             </div>
-            <div > <Link to={'/about'} className={menu === 'about' ? 'active': ''} aria-current={menu === 'about' ? 'page': undefined} onClick={()=> handleClick('about')}>
+            <div > <Link to={'/portfolio/about'} className={menu === 'about' ? 'active': ''} aria-current={menu === 'about' ? 'page': undefined} onClick={()=> handleClick('about')}>
             <i class="fa-solid fa-user"></i>
             <p>About</p></Link>
             </div>
-            <div> <Link to={'/service'} className={menu === 'service' ? 'active': ''} aria-current={menu === 'home' ? 'service': undefined}  onClick={()=> handleClick('service')}>
+            <div> <Link to={'/portfolio/service'} className={menu === 'service' ? 'active': ''} aria-current={menu === 'home' ? 'service': undefined}  onClick={()=> handleClick('service')}>
             <i class="fa-solid fa-bars-staggered"></i>
             <p>Services</p></Link>
             </div>
             <div   
            
-            > <Link to={'/portfolio'} className={menu === 'portfolio' ? 'active': ''} aria-current={menu === 'portfolio' ? 'page': undefined}  onClick={()=> handleClick('portfolio')}>
+            > <Link to={'/portfolio/portfolio'} className={menu === 'portfolio' ? 'active': ''} aria-current={menu === 'portfolio' ? 'page': undefined}  onClick={()=> handleClick('portfolio')}>
             <i class="fa-solid fa-briefcase"></i>
             <p>Portfolio</p></Link>
             </div>
-            <div > <Link to={'/contact'} className={menu === 'contact' ? 'active': ''} aria-current={menu === 'contact' ? 'page': undefined} onClick={()=> handleClick('contact')}>
+            <div > <Link to={'/portfolio/contact'} className={menu === 'contact' ? 'active': ''} aria-current={menu === 'contact' ? 'page': undefined} onClick={()=> handleClick('contact')}>
             <i class="fa-solid fa-comment"></i>
             <p>Contact</p></Link>
             </div>

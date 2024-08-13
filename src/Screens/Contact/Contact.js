@@ -27,12 +27,12 @@ function Contact() {
               <div>
               <i class="fa-solid fa-globe"></i>
                 <h4>Website</h4>
-                <p><Link to={'/'}>www.com</Link></p>
+                <p><Link to={'https://anusiyagwebtech.github.io/portfolio'}>portfolio.com</Link></p>
               </div>
               <div>
               <i class="fa-brands fa-linkedin"></i>
                 <h4>Linkedin</h4>
-                <p><Link to={'https://www.linkedin.com/in/anusiyagwebtech/'}>www.linkedin.com/in/anusiyagwebtech</Link></p>
+                <p><Link to={'https://www.linkedin.com/in/anusiyagwebtech/'}>linkedin.com</Link></p>
               </div>
             </div>
          </div>
